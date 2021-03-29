@@ -42,6 +42,9 @@ body{
 .card-img-top.img1{
 	margin-left: 1rem!important;
 }
+.col.t1{
+	margin-top: 7rem!important;
+}
 @media  (max-width: 768px){
 	.navbar-nav.c1.ml-auto{
 		flex-direction: column;
@@ -59,10 +62,6 @@ body{
 	.row.mt-5.middle{
 		margin-left: 32px!important;
 	}
-/*	.col.t1{
-		position: absolute;
-		top:30rem!important;
-	}*/
 }
 @media (max-width: 576px){
 	.col.col-lg-2.col-md-3.m1{
@@ -89,12 +88,15 @@ body{
 	}
 	.media-body{
 		margin-left: 2rem!important;
-		margin-top: 1rem!important;
+		margin-top: 1rem!important; 
 	}
 	.card-body.b1{
 		padding: 2.25rem!important;
 	}
 	.card.last{
 		margin-top: 45px!important
+	}
+	.col.t1{
+		margin-top: 1rem!important;
 	}
 }
