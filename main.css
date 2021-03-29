@@ -1,0 +1,100 @@
+body{
+	background-color: #000;
+}
+.btn-light{
+	margin: 12px;
+}
+.power{
+	font-size: 50px;
+}
+.btn.btn-primary.btn-lg.bt.active{
+	font-size: 18px!important;
+}
+.btn.btn-light.btn-lg.bt1{
+	font-size: 19px!important;
+	padding-right:26px!important;
+	padding-left: 26px!important; 
+}
+.fa {
+  width: 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px auto;
+  padding: 8px;
+  border-radius: 80%;
+}
+.fa-facebook{
+	background:#3B5998;
+	color: white; 
+}
+.fa-twitter{
+	background:#55ACEE;
+	color: white; 	
+}
+.fa-linkedin{
+	background:#007bb5;
+	color: white; 	
+}
+
+.row.re{
+	padding: 48px 0px;
+}
+.card-img-top.img1{
+	margin-left: 1rem!important;
+}
+@media  (max-width: 768px){
+	.navbar-nav.c1.ml-auto{
+		flex-direction: column;
+		margin-right: 
+	}
+	.col.col-lg-6.col-md-10.c2,.col.col-lg-6.col-md-10.c3{
+		margin-top: 3rem;
+	}
+	.row.r1{
+		margin-left: 2rem;
+	}
+	.col.col-lg-2.col-md-3.m1{
+		margin-left: 15rem;
+	}
+	.row.mt-5.middle{
+		margin-left: 32px!important;
+	}
+/*	.col.t1{
+		position: absolute;
+		top:30rem!important;
+	}*/
+}
+@media (max-width: 576px){
+	.col.col-lg-2.col-md-3.m1{
+		margin-left: 0rem;
+	}
+	.row.re{
+		position: relative;
+	}
+	.col-sm-4.ab{
+		position: absolute;
+		top: 31rem;
+	}
+	.display-4{
+		font-size: 1.5rem!important;
+	}
+ 	.card-img-top.img1{
+		margin-left: 4rem!important;
+	}
+	.media{
+		flex-direction: column;
+	}
+	.h3,h3{
+		font-size: 1.0rem!important;
+	}
+	.media-body{
+		margin-left: 2rem!important;
+		margin-top: 1rem!important;
+	}
+	.card-body.b1{
+		padding: 2.25rem!important;
+	}
+	.card.last{
+		margin-top: 45px!important
+	}
+}
