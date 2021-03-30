@@ -45,27 +45,41 @@ body{
 .col.t1{
 	margin-top: 7rem!important;
 }
+@media (max-width: 990px){
+	.col.col-lg-2.col-md-3.m1{
+		margin-left: 15rem!important;
+	}
+	.display-4{
+		font-size: 2.5rem!important;
+	}
+}
 @media  (max-width: 768px){
 	.navbar-nav.c1.ml-auto{
 		flex-direction: column;
 		margin-right: 
 	}
 	.col.col-lg-6.col-md-10.c2,.col.col-lg-6.col-md-10.c3{
-		margin-top: 3rem;
+		margin-top: 0rem!important;
 	}
 	.row.r1{
-		margin-left: 2rem;
+		margin-left: 2rem!important;
 	}
-	.col.col-lg-2.col-md-3.m1{
-		margin-left: 15rem;
-	}
+/*	.col.col-lg-2.col-md-3.m1{
+		margin-left: 15rem!important;
+	}*/
 	.row.mt-5.middle{
 		margin-left: 32px!important;
 	}
+	.col.col-lg-2.col-md-3.m1{
+		margin-left: 11rem!important;
+	}
 }
 @media (max-width: 576px){
+	.row.ml-2{
+		flex-direction: column;
+	}
 	.col.col-lg-2.col-md-3.m1{
-		margin-left: 0rem;
+		margin-left: 0rem!important;
 	}
 	.row.re{
 		position: relative;
@@ -97,6 +111,17 @@ body{
 		margin-top: 45px!important
 	}
 	.col.t1{
+		margin-top: 1rem!important;
+	}
+	.row{
+		margin-top: 2rem!important;
+	}
+}
+@media (max-width: 500px){
+	.row.ml-2{
+		flex-direction: column;
+	}
+	.media{
 		margin-top: 1rem!important;
 	}
 }
